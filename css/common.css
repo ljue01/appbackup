@@ -1,9 +1,10 @@
 :root{
-	--main-color: #3d3d3d;
-	--second-color: #d1d1d1;
-	--border-radius: 16px;
-	--title-shadow: 4px 4px 6px #B2B2B2,-4px -4px 6px #F0F0F0;
-	--box-shadow: 8px 8px 14px #B2B2B2,-8px -8px 14px #F0F0F0;
+	--black-color: #262626;
+	--main-color: #52C21B;
+	--second-color: #F6F9F6;
+	--border-radius: 12px;
+	--s-border-radius: 6px;
+	--box-shadow: 0 8px 16px rgba(0,0,0,0.16);
 }
 * {
 	margin: 0;
@@ -12,16 +13,17 @@
 	outline-style: none;
 	border: none;
 	transition: 0.3s;
+	line-height: 1;
 }
 body,html{
 	font-size: 16px;
-	color: var(--main-color);
+	color: var(--black-color);
 	font-weight: 400;
 	background-color: var(--second-color);
 }
 a{
 	text-decoration: none;
-	color: var(--main-color);
+	color: var(--black-color);
 }
 input{
 	outline: none;
@@ -41,38 +43,22 @@ ul,li{
 .m-t-40{
 	margin-top: 40px;
 }
+.f24{
+	font-size: 1.5rem;
+}
+.f18{
+	font-size: 1.125rem;
+}
 .f14{
 	font-size: 0.875rem;
 }
-/* dev code*/
-pre{
-	font-family: 'Noto Serif SC'!important;
-	position: relative;
-	width: 100%;
-	line-height: 1.5;
-	white-space: pre;
+.f12{
+	font-size: 0.75rem;
 }
-
-
-/* transiton */
-.v-enter-active,.v-leave-active,.v-enter-active .pop-main,.v-leave-active .pop-main,.v-enter-active .pop-main-2,.v-leave-active .pop-main-2{
-  transition: all 0.3s ease-in-out;
-}
-.v-enter-from,.v-leave-to{
-  opacity: 0;
-}
-.v-enter-active .pop-main,.v-enter-active .pop-main-2{
-	transition-delay: 0.1s;
-}
-.v-enter-from .pop-main,.v-leave-to .pop-main,.v-enter-from .pop-main-2,.v-leave-to .pop-main-2{
-	transform: translateY(56px);
-  opacity: 0;
-}
-
 /* 滚动条样式 */
 ::-webkit-scrollbar {
-  width: 3px; /* 设置滚动条宽度 */
-	height: 3px;
+  width: 6px; /* 设置滚动条宽度 */
+	height: 6px;
 }
 
 ::-webkit-scrollbar-track,::-webkit-scrollbar-corner {
@@ -81,6 +67,6 @@ pre{
 
 ::-webkit-scrollbar-thumb {
   background-color: var(--main-color); /* 设置滑块背景颜色 */
-  border-radius: 2px; /* 设置滑块圆角 */
+  border-radius: 3px; /* 设置滑块圆角 */
 }
 
