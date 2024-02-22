@@ -1,5 +1,6 @@
 :root{
 	--black-color: #262626;
+	--gray-color: rgba(38,38,38,0.6);
 	--main-color: #52C21B;
 	--second-color: #F6F9F6;
 	--border-radius: 12px;
@@ -40,8 +41,11 @@ ul,li{
 .flex {
 	display: flex;
 }
-.m-t-40{
-	margin-top: 40px;
+.m-t-10{
+	margin-top: 0.625rem;
+}
+.m-t-16{
+	margin-top: 1rem;
 }
 .f24{
 	font-size: 1.5rem;
@@ -55,10 +59,13 @@ ul,li{
 .f12{
 	font-size: 0.75rem;
 }
+.gray{
+	color: var(--gray-color);
+}
 /* 滚动条样式 */
 ::-webkit-scrollbar {
-  width: 6px; /* 设置滚动条宽度 */
-	height: 6px;
+  width: 3px; /* 设置滚动条宽度 */
+	height: 3px;
 }
 
 ::-webkit-scrollbar-track,::-webkit-scrollbar-corner {
@@ -67,6 +74,6 @@ ul,li{
 
 ::-webkit-scrollbar-thumb {
   background-color: var(--main-color); /* 设置滑块背景颜色 */
-  border-radius: 3px; /* 设置滑块圆角 */
+  border-radius: 2px; /* 设置滑块圆角 */
 }
 
