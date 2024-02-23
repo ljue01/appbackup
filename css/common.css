@@ -1,0 +1,82 @@
+:root{
+	--black-color: #262626;
+	--gray-color: rgba(38,38,38,0.6);
+	--main-color: #52C21B;
+	--second-color: #F6F9F6;
+	--border-radius: 12px;
+	--s-border-radius: 6px;
+	--box-shadow: 0 8px 16px rgba(0,0,0,0.16);
+}
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	outline-style: none;
+	border: none;
+	transition: 0.3s;
+	line-height: 1;
+}
+body,html{
+	font-size: 16px;
+	color: var(--black-color);
+	font-weight: 400;
+	background-color: var(--second-color);
+}
+a{
+	text-decoration: none;
+	color: var(--black-color);
+}
+input{
+	outline: none;
+}
+button{
+	border: none;
+}
+.none{
+	display: none;
+}
+ul,li{
+	position: relative;
+}
+.flex {
+	display: flex;
+}
+.m-t-10{
+	margin-top: 0.625rem;
+}
+.m-t-16{
+	margin-top: 1rem;
+}
+.bold{
+	font-weight: bold;
+}
+.f24{
+	font-size: 1.5rem;
+}
+.f18{
+	font-size: 1.125rem;
+}
+.f14{
+	font-size: 0.875rem;
+}
+.f12{
+	font-size: 0.75rem;
+}
+.gray{
+	color: var(--gray-color);
+}
+/* 滚动条样式 */
+::-webkit-scrollbar {
+  width: 3px; /* 设置滚动条宽度 */
+	height: 3px;
+}
+
+::-webkit-scrollbar-track,::-webkit-scrollbar-corner {
+  background-color: var(--second-color); /* 设置轨道背景颜色 */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--main-color); /* 设置滑块背景颜色 */
+  border-radius: 2px; /* 设置滑块圆角 */
+}
+
