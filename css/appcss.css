@@ -146,3 +146,98 @@ nav{
 .top-btn:hover img{
 	transform: translateY(-2px);
 }
+.detail-box{
+	width: 100%;
+	padding-left: 1rem;
+	position: relative;
+	box-sizing: border-box;
+}
+.detail-main{
+	margin-top: 1rem;
+	position: relative;
+}
+.detail-head{
+	position: relative;
+}
+.detail-head-bg{
+	width: 100%;
+	height: 13.125rem;
+	background-color: #eaeaea;
+	overflow: hidden;
+	font-size: 0;
+	border-radius: var(--border-radius) var(--border-radius) 0 0;
+}
+.app-bg-1{
+	background-image: url(../data/images/headbg/headbg1.jpg);
+	background-size: cover;
+}
+.detail-appicon{
+	width: 7.5rem;
+	height: 7.5rem;
+	background-color: #ffffff;
+	position: absolute;
+	box-sizing: border-box;
+	font-size: 0;
+	justify-content: center;
+	align-items: center;
+	left: 1rem;
+	top: 9.375rem;
+	border-radius: var(--border-radius);
+	z-index: 1;
+}
+.detail-appicon img{
+	width: 4.25rem;
+	border-radius: var(--border-radius);
+}
+.detail-cont{
+	width: 100%;
+	padding: 0 1rem 0.875rem;
+	background-color: #ffffff;
+	box-sizing: border-box;
+	border-radius: 0 0 var(--border-radius) var(--border-radius);
+}
+.detail-text{
+	width: calc(100% - 14.375rem);
+	position: relative;
+	margin-top: 4.75rem;
+}
+.cont-p{
+	width: 100%;
+	margin-top: 1.875rem;
+	position: relative;
+}
+.cont-p p,.down-infopsw p,.down-href p{
+	line-height: 1.5;
+	margin-bottom: 0.75rem;
+}
+.app-info{
+	width: 14.375rem;
+	padding-left: 1.5rem;
+	position: relative;
+	margin-top: 4.75rem;
+}
+.downlink{
+	width: 100%;
+	padding: 2rem 1rem 0.875rem;
+	background-color: #ffffff;
+	box-sizing: border-box;
+	border-radius: var(--border-radius);
+	margin-top: 1rem;
+}
+.down-infopsw,.down-href{
+	margin-top: 1.375rem;
+	position: relative;
+}
+footer{
+	width: 100%;
+	padding-left: 24px;
+	box-sizing: border-box;
+	position: relative;
+}
+.footer{
+	width: 100%;
+	box-sizing: border-box;
+	position: relative;
+	justify-content: space-between;
+	margin-top: 2rem;
+}
