@@ -47,6 +47,9 @@ ul,li{
 .m-t-16{
 	margin-top: 1rem;
 }
+.bold{
+	font-weight: bold;
+}
 .f24{
 	font-size: 1.5rem;
 }

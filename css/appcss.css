@@ -80,7 +80,7 @@ nav{
 	box-sizing: border-box;
 }
 .list{
-	width: 100%;
+	width: calc(100% - 0.5rem);
 	position: relative;
 	margin: 0.5rem 0 0 0.5rem;
 	box-sizing: border-box;
@@ -88,14 +88,18 @@ nav{
 }
 .item-box{
 	width: calc(100% / 4);
+	box-sizing: border-box;
+	padding: 1rem 0 0 1rem;
+}
+.item-ul{
+	width: 100%;
 	background-color: #ffffff;
 	border-radius: var(--border-radius);
 	padding: 1.5rem 1rem;
 	box-sizing: border-box;
-	margin: 1rem 0 0 1rem;
 	flex-direction: column;
 }
-.item-box:hover{
+.item-ul:hover{
 	cursor: pointer;
 	box-shadow: var(--box-shadow);
 	transform: translateY(-2px);
