@@ -81,10 +81,12 @@ nav{
 }
 .list{
 	width: calc(100% - 0.5rem);
+	min-height: calc( 100vh - 11.25rem);
 	position: relative;
 	margin: 0.5rem 0 0 0.5rem;
 	box-sizing: border-box;
 	flex-wrap: wrap;
+	align-content: flex-start
 }
 .item-box{
 	width: calc(100% / 4);
