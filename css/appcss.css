@@ -146,6 +146,9 @@ nav{
 .top-btn:hover img{
 	transform: translateY(-2px);
 }
+.detail-tag span{
+	margin-right: 0.5rem;
+}
 .detail-box{
 	width: 100%;
 	padding-left: 1rem;
@@ -230,7 +233,7 @@ nav{
 }
 footer{
 	width: 100%;
-	padding-left: 24px;
+	padding-left: 1.5rem;
 	box-sizing: border-box;
 	position: relative;
 }
@@ -240,4 +243,17 @@ footer{
 	position: relative;
 	justify-content: space-between;
 	margin-top: 2rem;
+}
+.about-info *,.site-beian *:first-child,.friends-link *:first-child{
+	margin-right: 1.5rem;
+}
+.about-info *:last-child{
+	margin-right: 0;
+}
+footer a{
+	color: var(--color-gray);
+}
+footer a:hover{
+	color: var(--main-color);
+	text-decoration: underline;
 }
