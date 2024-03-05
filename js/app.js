@@ -18,11 +18,6 @@ const app = Vue.createApp({
 		});
 	},
 	computed: {
-		// filteredItems() {
-		// 	return this.selectedType === '0'
-		// 		? this.items
-		// 		: this.items.filter(item => item.classid === parseInt(this.selectedType))
-		// },
 		filteredItems() {
 			let filtered = this.selectedType === ''
 				? this.items
@@ -33,17 +28,30 @@ const app = Vue.createApp({
 	},
   methods: {
 		// 显示弹层
-		showPopup(item){
+		showPopup(item) {
 			this.popupItem = item;
 			this.show = true;
 		},
 		// 隐藏弹层
-		hidePopup(){
+		hidePopup() {
 			this.popupItem = null;
 			this.show = false;
 		},
-		// 回到顶部
-  }
+		// 回到顶部操作
+		// 获取滚动条到顶部的距离
+		// window.addEventListener('scroll',function(){
+		// 	const scrollHeight = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop; // 获取滚动高度
+		// 	// 滚动高度大于200显示按钮
+		// 	document.querySelector('.top-btn').style.display = scrollHeight > 200 ? 'block' : 'none';
+		// })
+		// 匀速返回顶部
+		backTop(){
+			window.scrollTo({
+				top: 0,
+				behavior: 'smooth'
+			});
+		}
+	}
 })
 
 app.mount('#app')

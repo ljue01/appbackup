@@ -134,7 +134,7 @@ nav{
 	position: fixed;
 	z-index: 100;
 	right: 2rem;
-	bottom: 2rem;
+	bottom: 4rem;
 	font-size: 0;
 	justify-content: center;
 	align-items: center;
@@ -146,7 +146,7 @@ nav{
 	cursor: pointer;
 }
 .top-btn:hover img{
-	transform: translateY(-2px);
+	transform: translateY(-3px);
 }
 footer{
 	width: 100%;
@@ -215,6 +215,8 @@ footer a:hover{
 }
 .down-detail{
 	width: 100%;
+	max-height: 18.75rem;
+	overflow-y: auto;
 	position: relative;
 	margin-top: 2rem;
 }
