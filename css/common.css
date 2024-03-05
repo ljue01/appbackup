@@ -83,3 +83,15 @@ ul,li{
   border-radius: 2px; /* 设置滑块圆角 */
 }
 
+/* transiton */
+.v-enter-active,.v-leave-active{
+  transition: all 0.3s ease-in-out;
+}
+.v-enter-from,.v-leave-to{
+  opacity: 0;
+}
+.v-enter-from .detail-box,.v-leave-to .detail-box{
+  transform: translateY(32px);
+  opacity: 0;
+}
+

@@ -16,32 +16,28 @@
 				<!-- 左侧导航 -->
 				<nav>
 					<ul class="logo-box">
-						<li class="logo-img"><img src="imgs/logo.svg" alt="logo"></li>
+						<li class="logo-img"><img src="imgs/logo.png" alt="logo"></li>
 						<li class="f18 web-name">设计师工作软件</li>
 						<li class="f12 web-des">设计师常用工作软件分享平台</li>
 					</ul>
 					<ul class="menu-box">
-						<a class="nav-href flex menu-sel" href="javascript:;">
-							<img src="imgs/upnew.svg" alt="上新">
-							<span class="f14 menu-name">上新</span>
-						</a>
-						<a class="nav-href flex" href="javascript:;">
+						<a class="nav-href flex" :class="{'menu-sel': selectedType === 0}" href="javascript:;" @click="selectedType = 0">
 							<img src="imgs/design.svg" alt="设计">
 							<span class="f14 menu-name">设计</span>
 						</a>
-						<a class="nav-href flex" href="javascript:;">
+						<a class="nav-href flex" :class="{'menu-sel': selectedType === 1}" href="javascript:;" @click="selectedType = 1">
 							<img src="imgs/dev.svg" alt="开发">
 							<span class="f14 menu-name">开发</span>
 						</a>
-						<a class="nav-href flex" href="javascript:;">
+						<a class="nav-href flex" :class="{'menu-sel': selectedType === 2}" href="javascript:;" @click="selectedType = 2">
 							<img src="imgs/system.svg" alt="系统工具">
 							<span class="f14 menu-name">系统工具</span>
 						</a>
-						<a class="nav-href flex" href="javascript:;">
+						<a class="nav-href flex" :class="{'menu-sel': selectedType === 3}" href="javascript:;" @click="selectedType = 3">
 							<img src="imgs/tool.svg" alt="在线小工具">
 							<span class="f14 menu-name">在线小工具</span>
 						</a>
-						<a class="nav-href flex" href="javascript:;">
+						<a class="nav-href flex" :class="{'menu-sel': selectedType === 4}" href="javascript:;" @click="selectedType = 4">
 							<img src="imgs/other.svg" alt="其它">
 							<span class="f14 menu-name">其它</span>
 						</a>
@@ -52,119 +48,20 @@
 				<div class="content">
 					<div class="crumbs">
 						<ul>
-							<li class="f24 m-t-10 bold">上新</li>
-							<li class="f12 gray m-t-16">最近更新的软件</li>
+							<li class="f24 m-t-10 bold">设计</li>
+							<li class="f12 gray m-t-16">软件设计工具</li>
 						</ul>
 					</div>
 					<div class="list flex">
 						<!-- item -->
-						<div class="item-box">
+						<div class="item-box" v-for="item in filteredItems" :key="item.id" @click="showPopup(item)">
 							<ul class="item-ul flex">
-								<li class="appicon"><img src="data/images/appicon/psicon.jpg" alt="Photoshop cc 2024" /></li>
-								<li class="appname f14 m-t-16">Photoshop cc 2024</li>
-								<li class="f12 gray appinfo">内置AI神经滤镜功能，为用户提供了一种神奇的新工作方式。</li>
+								<li class="appicon"><img src="data/appicon/psicon.jpg" alt="Photoshop cc 2024" /></li>
+								<li class="appname f14 m-t-16">{{item.appname}}</li>
+								<li class="f12 gray appinfo">{{item.description}}</li>
 								<li class="f12 gray apptime flex">
-									<span>Adobe</span>
-									<span>2024-2-21</span>
-								</li>
-							</ul>
-						</div>
-						<div class="item-box">
-							<ul class="item-ul flex">
-								<li class="appicon"><img src="data/images/appicon/psicon.jpg" alt="Photoshop cc 2024" /></li>
-								<li class="appname f14 m-t-16">Photoshop cc 2024</li>
-								<li class="f12 gray appinfo">内置AI神经滤镜功能，为用户提供了一种神奇的新工作方式。</li>
-								<li class="f12 gray apptime flex">
-									<span>Adobe</span>
-									<span>2024-2-21</span>
-								</li>
-							</ul>
-						</div>
-						<div class="item-box">
-							<ul class="item-ul flex">
-								<li class="appicon"><img src="data/images/appicon/psicon.jpg" alt="Photoshop cc 2024" /></li>
-								<li class="appname f14 m-t-16">Photoshop cc 2024</li>
-								<li class="f12 gray appinfo">内置AI神经滤镜功能，为用户提供了一种神奇的新工作方式。</li>
-								<li class="f12 gray apptime flex">
-									<span>Adobe</span>
-									<span>2024-2-21</span>
-								</li>
-							</ul>
-						</div>
-						<div class="item-box">
-							<ul class="item-ul flex">
-								<li class="appicon"><img src="data/images/appicon/psicon.jpg" alt="Photoshop cc 2024" /></li>
-								<li class="appname f14 m-t-16">Photoshop cc 2024</li>
-								<li class="f12 gray appinfo">内置AI神经滤镜功能，为用户提供了一种神奇的新工作方式。</li>
-								<li class="f12 gray apptime flex">
-									<span>Adobe</span>
-									<span>2024-2-21</span>
-								</li>
-							</ul>
-						</div>
-						<div class="item-box">
-							<ul class="item-ul flex">
-								<li class="appicon"><img src="data/images/appicon/psicon.jpg" alt="Photoshop cc 2024" /></li>
-								<li class="appname f14 m-t-16">Photoshop cc 2024</li>
-								<li class="f12 gray appinfo">内置AI神经滤镜功能，为用户提供了一种神奇的新工作方式。</li>
-								<li class="f12 gray apptime flex">
-									<span>Adobe</span>
-									<span>2024-2-21</span>
-								</li>
-							</ul>
-						</div>
-						<div class="item-box">
-							<ul class="item-ul flex">
-								<li class="appicon"><img src="data/images/appicon/psicon.jpg" alt="Photoshop cc 2024" /></li>
-								<li class="appname f14 m-t-16">Photoshop cc 2024</li>
-								<li class="f12 gray appinfo">内置AI神经滤镜功能，为用户提供了一种神奇的新工作方式。</li>
-								<li class="f12 gray apptime flex">
-									<span>Adobe</span>
-									<span>2024-2-21</span>
-								</li>
-							</ul>
-						</div>
-						<div class="item-box">
-							<ul class="item-ul flex">
-								<li class="appicon"><img src="data/images/appicon/psicon.jpg" alt="Photoshop cc 2024" /></li>
-								<li class="appname f14 m-t-16">Photoshop cc 2024</li>
-								<li class="f12 gray appinfo">内置AI神经滤镜功能，为用户提供了一种神奇的新工作方式。</li>
-								<li class="f12 gray apptime flex">
-									<span>Adobe</span>
-									<span>2024-2-21</span>
-								</li>
-							</ul>
-						</div>
-						<div class="item-box">
-							<ul class="item-ul flex">
-								<li class="appicon"><img src="data/images/appicon/psicon.jpg" alt="Photoshop cc 2024" /></li>
-								<li class="appname f14 m-t-16">Photoshop cc 2024</li>
-								<li class="f12 gray appinfo">内置AI神经滤镜功能，为用户提供了一种神奇的新工作方式。</li>
-								<li class="f12 gray apptime flex">
-									<span>Adobe</span>
-									<span>2024-2-21</span>
-								</li>
-							</ul>
-						</div>
-						<div class="item-box">
-							<ul class="item-ul flex">
-								<li class="appicon"><img src="data/images/appicon/psicon.jpg" alt="Photoshop cc 2024" /></li>
-								<li class="appname f14 m-t-16">Photoshop cc 2024</li>
-								<li class="f12 gray appinfo">内置AI神经滤镜功能，为用户提供了一种神奇的新工作方式。</li>
-								<li class="f12 gray apptime flex">
-									<span>Adobe</span>
-									<span>2024-2-21</span>
-								</li>
-							</ul>
-						</div>
-						<div class="item-box">
-							<ul class="item-ul flex">
-								<li class="appicon"><img src="data/images/appicon/psicon.jpg" alt="Photoshop cc 2024" /></li>
-								<li class="appname f14 m-t-16">Photoshop cc 2024</li>
-								<li class="f12 gray appinfo">内置AI神经滤镜功能，为用户提供了一种神奇的新工作方式。</li>
-								<li class="f12 gray apptime flex">
-									<span>Adobe</span>
-									<span>2024-2-21</span>
+									<span>{{item.company}}</span>
+									<span>{{item.datatime}}</span>
 								</li>
 							</ul>
 						</div>
@@ -172,24 +69,24 @@
 					</div>
 					<!-- footer -->
 					<footer>
-						<div class="flex footer f12 gray">
-							<div class="about-info">
-								<span>关于</span>
-								<span>喜欢</span>
-								<span>公众号</span>
-								<a href="https://blog.csdn.net/justliu1989" target="_blank">CSDN</a>
-								<a href="https://t.me/designer_work_share" target="_blank">电报</a>
-								<a href="https://weibo.com/u/1849041452" target="_blank">个人微博</a>
-							</div>
-							<div class="site-beian">
-								<span>designerapp©️2024</span>
-								<a href="https://beian.miit.gov.cn" target="_blank">冀ICP备19017590号-1</a>
-							</div>
-							<div class="friends-link">
-								<a href="https://funcss.liujueyi.cn/" target="_blank">FUNCSS</a>
-								<a href="https://whtool.liujueyi.cn/" target="_blank">WHTOOL</a>
-							</div>
-						</div>
+					  <div class="flex footer f12 gray">
+					    <div class="about-info">
+					      <span>关于</span>
+					      <span>喜欢</span>
+					      <span>公众号</span>
+					      <a href="https://blog.csdn.net/justliu1989" target="_blank">CSDN</a>
+					      <a href="https://t.me/designer_work_share" target="_blank">电报</a>
+					      <a href="https://weibo.com/u/1849041452" target="_blank">个人微博</a>
+					    </div>
+					    <div class="site-beian">
+					      <span>designerapp©️2024</span>
+					      <a href="https://beian.miit.gov.cn" target="_blank">冀ICP备19017590号-1</a>
+					    </div>
+					    <div class="friends-link">
+					      <a href="https://funcss.liujueyi.cn/" target="_blank">FUNCSS</a>
+					      <a href="https://whtool.liujueyi.cn/" target="_blank">WHTOOL</a>
+					    </div>
+					  </div>
 					</footer>
 					<!-- footer@ -->
 				</div>
@@ -200,6 +97,33 @@
 				</div>
 				<!-- top@ -->
 			</div>
+			
+			<transition :duration="400">
+				<div v-if="show" class="pop-detail flex"  @click="hidePopup">
+					<div class="detail-box" @click.stop>
+						<div class="detail-text flex">
+							<ul>
+								<li class="detail-appicon"><img src="data/appicon/psicon.jpg" alt="Photoshop cc 2024" /></li>
+								<li class="f18 bold">{{popupItem.appname}}</li>
+								<li class="f12 gray m-t-16">{{popupItem.description}}</li>
+							</ul>
+							<ul class="f12 gray">
+								<li>生产商：{{popupItem.company}}</li>
+								<li class="m-t-16">更新日期：{{popupItem.datatime}}</li>
+							</ul>
+						</div>
+						<div class="down-detail">
+							<div class="f18 bold">下载地址</div>
+							<div class="f12 gray down-infopsw">
+								<span v-html="popupItem.downinfo"></span>
+							</div>
+							<div class="cont-p f14 down-href">
+								<span v-html="popupItem.downlink"></span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</transition>
 		</div>
 		<script src="https://cdn.bootcdn.net/ajax/libs/vue/3.2.22/vue.global.js"></script>
 		<script src="https://cdn.bootcdn.net/ajax/libs/axios/1.3.6/axios.min.js"></script>
