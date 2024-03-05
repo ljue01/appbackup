@@ -35,6 +35,9 @@ button{
 .none{
 	display: none;
 }
+.b-none{
+	display: block;
+}
 ul,li{
 	position: relative;
 }
