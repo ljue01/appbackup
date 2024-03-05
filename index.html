@@ -47,9 +47,25 @@
 				<!-- 右侧内容 -->
 				<div class="content">
 					<div class="crumbs">
-						<ul>
+						<ul class="none" :class="{'b-none': selectedType === 0}">
 							<li class="f24 m-t-10 bold">设计</li>
-							<li class="f12 gray m-t-16">软件设计工具</li>
+							<li class="f12 gray m-t-16">常用的一些软件设计工具</li>
+						</ul>
+						<ul class="none" :class="{'b-none': selectedType === 1}">
+							<li class="f24 m-t-10 bold">开发</li>
+							<li class="f12 gray m-t-16">程序猿常用的代码开发工具</li>
+						</ul>
+						<ul class="none" :class="{'b-none': selectedType === 2}">
+							<li class="f24 m-t-10 bold">系统工具</li>
+							<li class="f12 gray m-t-16">Win/Mac系统好用的系统工具</li>
+						</ul>
+						<ul class="none" :class="{'b-none': selectedType === 3}">
+							<li class="f24 m-t-10 bold">在线小工具</li>
+							<li class="f12 gray m-t-16">浏览器直接打开就能帮助到你的小工具</li>
+						</ul>
+						<ul class="none" :class="{'b-none': selectedType === 4}">
+							<li class="f24 m-t-10 bold">其它</li>
+							<li class="f12 gray m-t-16">难道说我的理想,就是这样度过一生的时光</li>
 						</ul>
 					</div>
 					<div class="list flex">
