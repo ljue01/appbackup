@@ -104,7 +104,7 @@
 					<div class="detail-box" @click.stop>
 						<div class="detail-text flex">
 							<ul>
-								<li class="detail-appicon"><img src="data/appicon/psicon.jpg" alt="Photoshop cc 2024" /></li>
+								<li class="detail-appicon"><img :src="'data/appicon/'+popupItem.appicon" :alt="popupItem.appname" /></li>
 								<li class="f18 bold">{{popupItem.appname}}</li>
 								<li class="f12 gray m-t-16">{{popupItem.description}}</li>
 							</ul>
