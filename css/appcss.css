@@ -194,6 +194,7 @@ footer a:hover{
 	background-color: #ffffff;
 	border-radius: var(--border-radius);
 	padding: 0 1rem 1.875rem;
+	box-shadow: var(--box-shadow);
 }
 .detail-text{
 	align-items: flex-end;
