@@ -8,6 +8,9 @@ const app = Vue.createApp({
 			 items: [],
 			 selectedType: 0,
 			 show: false,
+			 about: false,
+			 like: false,
+			 gzh: false,
     }
   },
   mounted() {
@@ -27,16 +30,37 @@ const app = Vue.createApp({
 		},
 	},
   methods: {
-		// 显示弹层
+		// 显示/隐藏下载地址弹层
 		showPopup(item) {
 			this.popupItem = item;
 			this.show = true;
 		},
-		// 隐藏弹层
 		hidePopup() {
 			this.popupItem = null;
 			this.show = false;
 		},
+		// 显示/隐藏关于弹层
+		popAbout(){
+			this.about = true;
+		},
+		popAboutHide(){
+			this.about = false;
+		},
+		// 显示/隐藏喜欢弹层
+		popLike(){
+			this.like = true;
+		},
+		popLikeHide(){
+			this.like = false;
+		},
+		// 显示/隐藏喜欢弹层
+		popGzh(){
+			this.gzh = true;
+		},
+		popGzhHide(){
+			this.gzh = false;
+		},
+		// 返回顶部
 		// 回到顶部操作
 		// 获取滚动条到顶部的距离
 		// window.addEventListener('scroll',function(){
@@ -50,7 +74,7 @@ const app = Vue.createApp({
 				top: 0,
 				behavior: 'smooth'
 			});
-		}
+		},
 	}
 })
 

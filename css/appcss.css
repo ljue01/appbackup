@@ -118,6 +118,8 @@ nav{
 	font-weight: bold;
 }
 .appinfo{
+	height: 2.25rem;
+	overflow: hidden;
 	line-height: 1.5;
 	margin-top: 0.875rem;
 }
@@ -227,4 +229,31 @@ footer a:hover{
 .down-infopsw p,.down-href p{
 	line-height: 1.5;
 	margin-top: 1rem;
+}
+.site-pop-box{
+	width: 31.25rem;
+	position: relative;
+	box-sizing: border-box;
+	background-color: #ffffff;
+	border-radius: var(--border-radius);
+	padding: 0.875rem 0.5rem;
+	box-shadow: var(--box-shadow);
+}
+.site-pop-cont{
+	width: 100%;
+	max-height: 18.75rem;
+	overflow-y: auto;
+	padding: 1rem;
+	box-sizing: border-box;
+}
+.site-pop-cont p{
+	line-height: 1.5;
+	margin-top: 1rem;
+}
+.like-box,.donate{
+	flex-direction: column;
+}
+.donate{
+	justify-content: center;
+	align-items: center;
 }

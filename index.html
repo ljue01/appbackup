@@ -72,7 +72,7 @@
 						<!-- item -->
 						<div class="item-box" v-for="item in filteredItems" :key="item.id" @click="showPopup(item)">
 							<ul class="item-ul flex">
-								<li class="appicon"><img src="data/appicon/psicon.jpg" alt="Photoshop cc 2024" /></li>
+								<li class="appicon"><img :src="'data/appicon/' + item.appicon" :alt="item.appname" /></li>
 								<li class="appname f14 m-t-16">{{item.appname}}</li>
 								<li class="f12 gray appinfo">{{item.description}}</li>
 								<li class="f12 gray apptime flex">
@@ -87,9 +87,9 @@
 					<footer>
 					  <div class="flex footer f12 gray">
 					    <div class="about-info">
-					      <span>关于</span>
-					      <span>喜欢</span>
-					      <span>公众号</span>
+					      <a href="javascript:;" @click="popAbout">关于</a>
+					      <a href="javascript:;" @click="popLike">喜欢</a>
+					      <a href="javascript:;" @click="popGzh">公众号</a>
 					      <a href="https://blog.csdn.net/justliu1989" target="_blank">CSDN</a>
 					      <a href="https://t.me/designer_work_share" target="_blank">电报</a>
 					      <a href="https://weibo.com/u/1849041452" target="_blank">个人微博</a>
@@ -143,9 +143,69 @@
 			</transition>
 			<!-- 下载地址@ -->
 			
+			<!-- 关于 -->
+			<transition :duration="400">
+				<div v-if="about" class="pop-detail flex"  @click="popAboutHide">
+					<div class="site-pop-box" @click.stop>
+						<div class="site-pop-cont f14">
+							<p class='bold' style="margin-top: 0;">免责声明</p>
+							<p>本站为个人网站，所发布的所有内容，其目的仅限于为技术研究和学术交流提供参考。</p>
+							<p class='bold'>禁止商业和非法用途</p>
+							<p>任何个人或组织均不得将本站中发布的内容用于商业或非法目的。对于违反此规定的任何行为，一切由此产生的后果和责任将由行为人自行承担。</p>
+							<p class='bold'>版权声明</p>
+							<p>本站所发布的信息均来源于网络，其版权归原作者或版权所有者所有。如有版权争议，与本站无关，可通过<span style="color: red;">公众号私信联系，24小时内删除</span>相关内容。</p>
+							<p>用户在使用或下载本站内容时，应在24小时内从个人设备中彻底删除。</p>
+							<p class='bold'>用户协议</p>
+							<p>访问和下载本站内容的用户，即表示您已经充分理解并同意上述条款。本站作为非盈利性质的网站，不提供任何商业性质的软件交易服务。</p>
+							<p>所有内容的分享均不以盈利为目的，仅为技术交流之用。</p>
+						</div>
+					</div>
+				</div>
+			</transition>
+			<!-- 关于@ -->
+			
+			<!-- 喜欢 -->
+			<transition :duration="400">
+				<div v-if="like" class="pop-detail flex"  @click="popLikeHide">
+					<div class="site-pop-box" @click.stop>
+						<div class="site-pop-cont f14 flex like-box">
+							<p>如果你喜欢本站，可以支付宝扫码下面红包码，领取红包后在实体店购物支持一下本站。</p>
+							<p style="text-align: center;"><img src="imgs/zfbhb.png" alt="支付宝红包码" /></p>
+							<p>如果你是土豪，也欢迎直接支付宝或者微信捐赠。</p>
+							<div class="flex" style="justify-content: space-evenly">
+								<p class="donate flex">
+									<img src="https://whtool.liujueyi.cn/img/zfb.png" alt="支付宝捐赠" />
+									<label class="m-t-10 f12 gray">支付宝捐赠</label>
+								</p>
+								<p class="donate flex">
+									<img src="https://whtool.liujueyi.cn/img/wx.png" alt="微信捐赠" />
+									<label class="m-t-10 f12 gray">微信捐赠</label>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</transition>
+			<!-- 喜欢@ -->
+			
+			<!-- 公众号 -->
+			<transition :duration="400">
+				<div v-if="gzh" class="pop-detail flex"  @click="popGzhHide">
+					<div class="site-pop-box" @click.stop>
+						<div class="site-pop-cont f14 flex like-box">
+							<p style="text-align: center;font-size: 0;"><img src="https://funcss.liujueyi.cn/img/wxgzh.png" alt="设计师工作日常" /></p>
+							<p style="text-align: center;">公众号：设计师工作日常</p>
+							<p>设计师工作日常、教程、经验及一些前端开发的知识分享。</p>
+							<p>欢迎关注，一起交流学习。</p>
+						</div>
+					</div>
+				</div>
+			</transition>
+			<!-- 公众号@ -->
+			
 		</div>
 		<script src="https://cdn.bootcdn.net/ajax/libs/vue/3.2.22/vue.global.js"></script>
-		<script src="https://cdn.bootcdn.net/ajax/libs/axios/1.3.6/axios.min.js"></script>
+		<script src="https://cdn.bootcdn.net/ajax/libs/axios/1.5.0/axios.min.js"></script>
 		<script src="js/app.js"></script>
 		<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 	</body>
