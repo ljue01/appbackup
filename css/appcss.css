@@ -118,6 +118,8 @@ nav{
 	font-weight: bold;
 }
 .appinfo{
+	height: 2.25rem;
+	overflow: hidden;
 	line-height: 1.5;
 	margin-top: 0.875rem;
 }

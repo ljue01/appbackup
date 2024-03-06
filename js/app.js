@@ -10,6 +10,7 @@ const app = Vue.createApp({
 			 show: false,
 			 about: false,
 			 like: false,
+			 gzh: false,
     }
   },
   mounted() {
@@ -51,6 +52,13 @@ const app = Vue.createApp({
 		},
 		popLikeHide(){
 			this.like = false;
+		},
+		// 显示/隐藏喜欢弹层
+		popGzh(){
+			this.gzh = true;
+		},
+		popGzhHide(){
+			this.gzh = false;
 		},
 		// 返回顶部
 		// 回到顶部操作
