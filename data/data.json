@@ -134,12 +134,23 @@
 	{
 		"keyid": 12,
 		"classid": 0,
-		"appname": "Sketch 99.5 轻量易用的矢量设计工具",
+		"appname": "Sketch 99.5 破解版",
 	  "description": "最强大的移动应用矢量绘图设计工具",
 		"appicon": "sketch.jpg",
 		"downinfo": "<p>老版本安装过的直接覆盖安装即可，无需重复激活。</p><p style='color: #52C21B;'>解压密码：appshare</p>",
 		"downlink": "<p>蓝奏云链接：https://justliu.lanzoue.com/iRI6l1qid4sb</p>",
 		"datatime": "2014-03-06",
 		"company": "Sketch BV"
+	},
+	{
+		"keyid": 13,
+		"classid": 0,
+		"appname": "Principle 6.33 破解版",
+	  "description": "Mac平台交互动效设计神器",
+		"appicon": "principle.webp",
+		"downinfo": "<p style='color: #52C21B;'>解压密码：appshare</p>",
+		"downlink": "<p>蓝奏云链接：https://justliu.lanzoue.com/ir1zd1qio2vi</p>",
+		"datatime": "2014-03-06",
+		"company": "Principle Design"
 	}
 ]
