@@ -61,14 +61,6 @@ const app = Vue.createApp({
 			this.gzh = false;
 		},
 		// 返回顶部
-		// 回到顶部操作
-		// 获取滚动条到顶部的距离
-		// window.addEventListener('scroll',function(){
-		// 	const scrollHeight = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop; // 获取滚动高度
-		// 	// 滚动高度大于200显示按钮
-		// 	document.querySelector('.top-btn').style.display = scrollHeight > 200 ? 'block' : 'none';
-		// })
-		// 匀速返回顶部
 		backTop(){
 			window.scrollTo({
 				top: 0,
