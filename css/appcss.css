@@ -230,6 +230,13 @@ footer a:hover{
 	line-height: 1.5;
 	margin-top: 1rem;
 }
+.down-infopsw a{
+	cursor: pointer;
+	color: #52C21B;
+}
+.down-infopsw a:hover{
+	text-decoration: underline;
+}
 .site-pop-box{
 	width: 31.25rem;
 	position: relative;

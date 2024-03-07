@@ -130,7 +130,10 @@
 							</ul>
 						</div>
 						<div class="down-detail">
-							<div class="f18 bold">下载地址</div>
+							<div class="f18 bold">
+								<span v-if="popupItem.classid === 3">应用介绍</span>
+								<span v-else>下载地址</span>
+							</div>
 							<div class="f12 gray down-infopsw">
 								<span v-html="popupItem.downinfo"></span>
 							</div>
