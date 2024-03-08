@@ -201,12 +201,11 @@ footer a:hover{
 .detail-text{
 	align-items: flex-end;
 	justify-content: space-between;
-	margin-top: -3.625rem;
 }
 .detail-appicon{
 	width: 4.25rem;
 	height: 4.25rem;
-	padding: 1.5rem;
+	padding: 1rem;
 	position: relative;
 	background-color: #ffffff;
 	border-radius: var(--border-radius);
@@ -214,6 +213,14 @@ footer a:hover{
 .detail-appicon img{
 	max-width: 4.25rem;
 	border-radius: var(--s-border-radius);
+}
+.detail-appicon{
+	position: absolute;
+	top: -3.125rem;
+}
+.detail-appname{
+	position: relative;
+	margin-top: 4.125rem;
 }
 .down-detail{
 	width: 100%;
