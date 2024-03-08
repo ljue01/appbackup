@@ -12,6 +12,9 @@
 	</head>
 	<body>
 		<div id="app">
+			<div v-if="pageLoad" class="page-load">
+				<div class="loading43"></div>
+			</div>
 			<div class="wrapper flex">
 				<!-- 左侧导航 -->
 				<nav>
@@ -212,12 +215,7 @@
 		<script src="js/app.js"></script>
 		<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 		<script>
-			//获取滚动条到顶部的距离
-			window.addEventListener('scroll',function(){
-				const scrollHeight = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop; // 获取滚动高度
-				// 滚动高度大于400显示按钮
-				document.querySelector('.top-btn').style.display = scrollHeight > 400 ? 'flex' : 'none';
-			})
+			
 			
 			// 百度统计
 			var _hmt = _hmt || [];
