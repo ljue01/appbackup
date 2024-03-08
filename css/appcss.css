@@ -184,7 +184,7 @@ footer a:hover{
 	left: 0;
 	background-color: rgba(216,216,216,0.6);
 	backdrop-filter: blur(4px);
-	z-index: 99999;
+	z-index: 100;
 	box-sizing: border-box;
 	align-items: center;
 	justify-content: center;
@@ -201,12 +201,11 @@ footer a:hover{
 .detail-text{
 	align-items: flex-end;
 	justify-content: space-between;
-	margin-top: -3.625rem;
 }
 .detail-appicon{
 	width: 4.25rem;
 	height: 4.25rem;
-	padding: 1.5rem;
+	padding: 1rem;
 	position: relative;
 	background-color: #ffffff;
 	border-radius: var(--border-radius);
@@ -214,6 +213,14 @@ footer a:hover{
 .detail-appicon img{
 	max-width: 4.25rem;
 	border-radius: var(--s-border-radius);
+}
+.detail-appicon{
+	position: absolute;
+	top: -3.125rem;
+}
+.detail-appname{
+	position: relative;
+	margin-top: 4.125rem;
 }
 .down-detail{
 	width: 100%;
@@ -263,4 +270,42 @@ footer a:hover{
 .donate{
 	justify-content: center;
 	align-items: center;
+}
+.page-load{
+	width: 100%;
+	height: 100vh;
+	background-color: #ffffff;
+	position: fixed;
+	top: 0;
+	z-index: 999;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.loading43{
+  width:140px;
+  height:4px;
+  border-radius:2px;
+  background-color:rgba(0,0,0,0.2);
+  position:relative;
+}
+.loading43:after{
+  content:"";
+  height:4px;
+  border-radius:2px;
+  background-color:#2aa738;
+  position:absolute;
+  animation:eff43 2.4s ease-in-out infinite;
+}
+@keyframes eff43{
+  0%{
+  width:0;
+	}
+	50%{
+		width:100%;
+	}
+	100%{
+		width:0;
+		right:0;
+	}
 }

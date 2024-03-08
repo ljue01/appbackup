@@ -11,6 +11,7 @@ const app = Vue.createApp({
 			 about: false,
 			 like: false,
 			 gzh: false,
+			 pageLoad: true,
     }
   },
   mounted() {
@@ -18,6 +19,16 @@ const app = Vue.createApp({
 			this.items = response.data;
 		}).catch(error => {
 			console.log(error);
+		});
+		// 页面加载定时器
+		setTimeout(() => {
+			this.pageLoad = false;
+		}, 3000);
+		// 获取滚动条到顶部的距离
+		window.addEventListener('scroll',function(){
+			const scrollHeight = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop; // 获取滚动高度
+			// 滚动高度大于400显示按钮
+			document.querySelector('.top-btn').style.display = scrollHeight > 400 ? 'flex' : 'none';
 		});
 	},
 	computed: {
