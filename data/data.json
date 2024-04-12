@@ -185,5 +185,16 @@
 		"downlink": "",
 		"datatime": "2024-03-07",
 		"company": "Just. Liu"
+	},
+	{
+		"keyid": 17,
+		"classid": 4,
+		"appname": "班迪录屏Bandicam v7.1.0.2151",
+	  "description": "录屏幕，录游戏，录视频的功能强大的屏幕录像软件",
+		"appicon": "bandicam.webp",
+		"downinfo": "",
+		"downlink": "<p>蓝奏云链接：https://justliu.lanzoue.com/i7gON1us7txe<br>密码:1nn6</p>",
+		"datatime": "2024-04-12",
+		"company": "Bandicam Company"
 	}
 ]
