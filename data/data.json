@@ -196,5 +196,16 @@
 		"downlink": "<p>蓝奏云链接：https://justliu.lanzoue.com/i7gON1us7txe<br>密码:1nn6</p>",
 		"datatime": "2024-04-12",
 		"company": "Bandicam Company"
+	},
+	{
+		"keyid": 18,
+		"classid": 4,
+		"appname": "文件名精灵",
+	  "description": "批量修改文件名 2024年最新版 完全免费",
+		"appicon": "ecdove.webp",
+		"downinfo": "<p>批量修改文件、文件夹名称，字符删除、替换、插入，批量添加前缀、后缀字符，批量获取文件、文件夹名称，批量添加数字编号，随机重命名，繁体简体相互转换，文件名备份与还原，导入导出自定义表格改名、文件改名，生成批处理文件等功能。</p><p>官网：<a href='https://www.ecdove.com/' target='_blank'>- https://www.ecdove.com/ -</a></p>",
+		"downlink": "<p>蓝奏云链接：https://justliu.lanzoue.com/b00hppsm2b<br>密码:7rkh</p>",
+		"datatime": "2024-04-19",
+		"company": "ecdove.com"
 	}
 ]
