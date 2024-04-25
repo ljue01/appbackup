@@ -185,5 +185,49 @@
 		"downlink": "",
 		"datatime": "2024-03-07",
 		"company": "Just. Liu"
+	},
+	{
+		"keyid": 17,
+		"classid": 4,
+		"appname": "班迪录屏Bandicam v7.1.0.2151 破解绿色版",
+	  "description": "录屏幕，录游戏，录视频的功能强大的屏幕录像软件",
+		"appicon": "bandicam.webp",
+		"downinfo": "",
+		"downlink": "<p>蓝奏云链接：https://justliu.lanzoue.com/i7gON1us7txe<br>密码:1nn6</p>",
+		"datatime": "2024-04-12",
+		"company": "Bandicam Company"
+	},
+	{
+		"keyid": 18,
+		"classid": 4,
+		"appname": "文件名精灵",
+	  "description": "批量修改文件名 2024年最新版 完全免费",
+		"appicon": "ecdove.webp",
+		"downinfo": "<p>批量修改文件、文件夹名称，字符删除、替换、插入，批量添加前缀、后缀字符，批量获取文件、文件夹名称，批量添加数字编号，随机重命名，繁体简体相互转换，文件名备份与还原，导入导出自定义表格改名、文件改名，生成批处理文件等功能。</p><p>官网：<a href='https://www.ecdove.com/' target='_blank'>- https://www.ecdove.com/ -</a></p>",
+		"downlink": "<p>蓝奏云链接：https://justliu.lanzoue.com/b00hppsm2b<br>密码:7rkh</p>",
+		"datatime": "2024-04-19",
+		"company": "ecdove.com"
+	},
+	{
+		"keyid": 19,
+		"classid": 0,
+		"appname": "Adobe cc 2023 全家桶",
+	  "description": "Adobe cc 2023 全家桶(ps/pr/ae/ai/ch/lr/an/me/id/ic/au)",
+		"appicon": "adobe.webp",
+		"downinfo": "",
+		"downlink": "<p>阿里云链接：https://www.alipan.com/s/ukcr9ictVpV<br>提取码: tb37</p>",
+		"datatime": "2024-04-19",
+		"company": "Adobe"
+	},
+	{
+		"keyid": 20,
+		"classid": 2,
+		"appname": "Wise Memory Optimezer",
+	  "description": "一键释放被占用的内存，整理内存，清空待机内存。",
+		"appicon": "wise.webp",
+		"downinfo": "<p>Wise Memory Optimizer 是一个 Windows 的免费内存优化和整理工具。通过其特有的内存整理技术，它可以帮你清理和释放更多内存，让系统跑的更快。</p><p>官网下载：<a href='https://www.wisecleaner.com.cn/wise-memory-optimizer.html' target='_blank'>- https://www.wisecleaner.com.cn/wise-memory-optimizer.html -</a></p>",
+		"downlink": "",
+		"datatime": "2024-04-25",
+		"company": "Lespeed Technology Co., Ltd."
 	}
 ]
