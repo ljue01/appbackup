@@ -31,6 +31,10 @@ nav{
 	text-align: center;
 	font-size: 0;
 }
+.logo-img img{
+	width: 100%;
+	max-width: 4.25rem;
+}
 .web-name{
 	font-weight: bold;
 	margin-top: 1.5rem;
@@ -115,7 +119,11 @@ nav{
 	border-radius: var(--s-border-radius);
 }
 .appname{
+	width: 100%;
 	font-weight: bold;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
 }
 .appinfo{
 	height: 2.25rem;
@@ -307,5 +315,80 @@ footer a:hover{
 	100%{
 		width:0;
 		right:0;
+	}
+}
+/** 自适应 **/
+@media screen and (max-width:768px){
+	nav{
+		width: 5.25rem;
+		height: calc( 100% - 2rem);
+	}
+	.content{
+		width: calc(100% - 5.25rem);
+		margin-left: 5.25rem;
+	}
+	.web-name,.web-des,.menu-name,.about-info a:nth-of-type(2),.about-info a:nth-of-type(4),.about-info a:nth-of-type(5),.about-info a:nth-of-type(6),.site-beian span,.friends-link{
+		display: none;
+	}
+	.item-box{
+		width: 100%;
+	}
+	.detail-box,.site-pop-box{
+		width: calc(100% - 3rem);
+	}
+	.detail-text{
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.detail-text ul:nth-of-type(2){
+		margin-top: 1rem;
+	}
+	.wrapper{
+		padding: 1rem;
+	}
+}
+@media screen and (min-width: 769px) and (max-width:960px){
+	nav{
+		width: 5.25rem;
+	}
+	.content{
+		width: calc(100% - 5.25rem);
+		margin-left: 5.25rem;
+	}
+	.web-name,.web-des,.menu-name,.about-info a:nth-of-type(2),.about-info a:nth-of-type(4),.about-info a:nth-of-type(5),.about-info a:nth-of-type(6){
+		display: none;
+	}
+	.item-box{
+		width: calc(100% / 2);
+	}
+}
+@media screen and (min-width: 961px) and (max-width:1024px){
+	nav{
+		width: 5.25rem;
+	}
+	.content{
+		width: calc(100% - 5.25rem);
+		margin-left: 5.25rem;
+	}
+	.web-name,.web-des,.menu-name{
+		display: none;
+	}
+	.item-box{
+		width: calc(100% / 2);
+	}
+}
+@media screen and (min-width: 1025px) and (max-width:1440px){
+	nav{
+		width: 5.25rem;
+	}
+	.content{
+		width: calc(100% - 5.25rem);
+		margin-left: 5.25rem;
+	}
+	.web-name,.web-des,.menu-name{
+		display: none;
+	}
+	.item-box{
+		width: calc(100% / 3);
 	}
 }
