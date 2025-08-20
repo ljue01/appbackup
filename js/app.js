@@ -6,7 +6,7 @@ const app = Vue.createApp({
   data() {
     return {
 			 items: [],
-			 selectedType: 0,
+			 selectedType: 8,
 			 show: false,
 			 about: false,
 			 like: false,

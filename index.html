@@ -35,6 +35,10 @@
 						<li class="f12 web-des">设计师常用工作软件分享平台</li>
 					</ul>
 					<ul class="menu-box">
+						<a class="nav-href flex" :class="{'menu-sel': selectedType === 8}" href="javascript:;" @click="selectedType = 8">
+							<img src="imgs/top.svg" alt="设计">
+							<span class="f14 menu-name">推荐</span>
+						</a>
 						<a class="nav-href flex" :class="{'menu-sel': selectedType === 0}" href="javascript:;" @click="selectedType = 0">
 							<img src="imgs/design.svg" alt="设计">
 							<span class="f14 menu-name">设计</span>
@@ -61,6 +65,10 @@
 				<!-- 右侧内容 -->
 				<div class="content">
 					<div class="crumbs">
+						<ul class="none" :class="{'b-none': selectedType === 8}">
+							<li class="f24 m-t-10 bold">推荐</li>
+							<li class="f12 gray m-t-16">设计师工作日常推荐</li>
+						</ul>
 						<ul class="none" :class="{'b-none': selectedType === 0}">
 							<li class="f24 m-t-10 bold">设计</li>
 							<li class="f12 gray m-t-16">常用的一些软件设计工具</li>
