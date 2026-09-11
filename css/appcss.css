@@ -171,10 +171,10 @@ footer{
 	justify-content: space-between;
 	margin-top: 2rem;
 }
-.about-info *,.site-beian *:first-child,.friends-link *:first-child{
+.about-info *,.site-beian *:first-child,.friends-link *{
 	margin-right: 1.5rem;
 }
-.about-info *:last-child{
+.about-info *:last-child,.friends-link *:last-child{
 	margin-right: 0;
 }
 footer a{
