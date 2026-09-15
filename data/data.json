@@ -181,7 +181,7 @@
 		"appname": "2048 - 摸鱼小游戏",
 	  "description": "曾今很火的2048小游戏网页版。",
 		"appicon": "fk2048.webp",
-		"downinfo": "<p>由 Just. Liu 编码实现的一个方块数字益智类游戏，相同的数字在靠拢时会相加，直到你在格子中凑出[2048]这个数字方块，游戏就胜利了。上班累了吧，快去玩一玩吧~</p><p><a href='https://liujueyi.cn/play/2048/2048game.html' target='_blank'>- https://liujueyi.cn/play/2048/2048game.html -</a></p>",
+		"downinfo": "<p>由 Just. Liu 编码实现的一个方块数字益智类游戏，相同的数字在靠拢时会相加，直到你在格子中凑出[2048]这个数字方块，游戏就胜利了。上班累了吧，快去玩一玩吧~</p><p><a href='https://whtool.liujueyi.cn/2048/2048game.html' target='_blank'>- 开始摸鱼 -</a></p>",
 		"downlink": "",
 		"datatime": "2024-03-07",
 		"company": "Just. Liu"
