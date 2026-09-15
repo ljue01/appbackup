@@ -35,6 +35,10 @@
 						<li class="f12 web-des">设计师常用工作软件分享平台</li>
 					</ul>
 					<ul class="menu-box">
+						<a class="nav-href flex" :class="{'menu-sel': selectedType === 8}" href="javascript:;" @click="selectedType = 8">
+							<img src="imgs/top.svg" alt="设计">
+							<span class="f14 menu-name">推荐</span>
+						</a>
 						<a class="nav-href flex" :class="{'menu-sel': selectedType === 0}" href="javascript:;" @click="selectedType = 0">
 							<img src="imgs/design.svg" alt="设计">
 							<span class="f14 menu-name">设计</span>
@@ -61,6 +65,10 @@
 				<!-- 右侧内容 -->
 				<div class="content">
 					<div class="crumbs">
+						<ul class="none" :class="{'b-none': selectedType === 8}">
+							<li class="f24 m-t-10 bold">推荐</li>
+							<li class="f12 gray m-t-16">站长常用的一些工具</li>
+						</ul>
 						<ul class="none" :class="{'b-none': selectedType === 0}">
 							<li class="f24 m-t-10 bold">设计</li>
 							<li class="f12 gray m-t-16">常用的一些软件设计工具</li>
@@ -146,8 +154,9 @@
 						</div>
 						<div class="down-detail">
 							<div class="f18 bold">
-								<span v-if="popupItem.classid === 3">应用介绍</span>
-								<span v-else>下载地址</span>
+								产品详情
+								<!-- <span v-if="popupItem.classid === 3">应用介绍</span>
+								<span v-else>下载地址</span> -->
 							</div>
 							<div class="f12 gray down-infopsw">
 								<span v-html="popupItem.downinfo"></span>
@@ -187,17 +196,15 @@
 				<div v-if="like" class="pop-detail flex"  @click="popLikeHide">
 					<div class="site-pop-box" @click.stop>
 						<div class="site-pop-cont f14 flex like-box">
-							<p>如果你喜欢本站，可以支付宝扫码下面红包码，领取红包后在实体店购物支持一下本站。</p>
-							<p style="text-align: center;"><img src="imgs/zfbhb.png" alt="支付宝红包码" /></p>
-							<p>如果你是土豪，也欢迎直接支付宝或者微信捐赠。</p>
+							<p>如果你喜欢本站，可以支付宝或者微信打赏赞助，请开发者喝杯咖啡。</p>
 							<div class="flex" style="justify-content: space-evenly">
 								<p class="donate flex">
-									<img src="https://whtool.liujueyi.cn/img/zfb.png" alt="支付宝捐赠" />
-									<label class="m-t-10 f12 gray">支付宝捐赠</label>
+									<img src="https://whtool.liujueyi.cn/img/zfb.png" alt="支付宝打赏" />
+									<label class="m-t-10 f12 gray">支付宝打赏</label>
 								</p>
 								<p class="donate flex">
-									<img src="https://whtool.liujueyi.cn/img/wx.png" alt="微信捐赠" />
-									<label class="m-t-10 f12 gray">微信捐赠</label>
+									<img src="https://whtool.liujueyi.cn/img/wx.png" alt="微信打赏" />
+									<label class="m-t-10 f12 gray">微信打赏</label>
 								</p>
 							</div>
 						</div>
