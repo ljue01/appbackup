@@ -236,7 +236,7 @@
 		"appname": "HBuilderx编辑器",
 	  "description": "DCloud 出品的免费前端 IDE，C++ 内核，体积小巧、启动速度快",
 		"appicon": "hx.webp",
-		"downinfo": "<p>它对 Vue 做了深度优化，自带强大的代码智能提示，HTML、Markdown 体验很好，是 uni-app 开发的首选工具</p><p>内置真机调试、模拟器预览、云端打包，可一键把项目编译到网页、小程序、App 等多端。</p><p>支持 Windows/macOS/Linux，插件市场可扩展 Git、终端等能力，中文友好，很适合国内前端与跨平台开发者。</p><p>官网地址：<a href='https://www.dcloud.io/hbuilderx.html' target='_blank'>- 需代理访问 -</a></p>",
+		"downinfo": "<p>它对 Vue 做了深度优化，自带强大的代码智能提示，HTML、Markdown 体验很好，是 uni-app 开发的首选工具</p><p>内置真机调试、模拟器预览、云端打包，可一键把项目编译到网页、小程序、App 等多端。</p><p>支持 Windows/macOS/Linux，插件市场可扩展 Git、终端等能力，中文友好，很适合国内前端与跨平台开发者。</p><p>官网地址：<a href='https://www.dcloud.io/hbuilderx.html' target='_blank'>- HBuilderX -</a></p>",
 		"downlink": "",
 		"datatime": "2026-09-15",
 		"company": "DCloud"

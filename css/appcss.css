@@ -38,10 +38,12 @@ nav{
 .web-name{
 	font-weight: bold;
 	margin-top: 1.5rem;
+	text-align: center;
 }
 .web-des{
 	color: rgba(38,38,38,0.6);
 	margin-top: 1rem;
+	text-align: center;
 }
 .menu-box{
 	width: 100%;
