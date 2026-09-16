@@ -295,5 +295,27 @@
 		"downlink": "<p>蓝奏云链接：https://justliu.lanzoue.com/iL8yN48k6pnc<br>密码:5na2</p>",
 		"datatime": "2026-09-15",
 		"company": "Firecore"
+	},
+	{
+		"keyid": 27,
+		"classid": 8,
+		"appname": "Snipaste截图贴图工具",
+	  "description": "Windows、macOS、Linux 平台的截图贴图工具，基础功能免费无广告",
+		"appicon": "snipaste.webp",
+		"downinfo": "<p>按下 F1 即可区域截图，自带箭头、文字、马赛克、高斯模糊等标注工具，还内置屏幕取色器，方便前端、设计师拾取色值。它最大特色是贴图功能，截图可以悬浮置顶在屏幕最上层，支持缩放、调透明度，写代码、核对资料时不用来回切换窗口。软件支持自定义快捷键，截图可复制到剪贴板或本地保存，是程序员、美工常用的效率小工具。</p>",
+		"downlink": "<p>官网下载：<a href='https://zh.snipaste.com' target='_blank'>- Snipaste截图贴图工具 -</a></p>",
+		"datatime": "2026-09-16",
+		"company": "Le Liu"
+	},
+	{
+		"keyid": 28,
+		"classid": 8,
+		"appname": "Kap macOS录屏软件",
+	  "description": "仅支持 macOS 的开源免费录屏工具，基于 Electron 开发。",
+		"appicon": "kap.webp",
+		"downinfo": "<p>默认在 Mac 顶部菜单栏，可以选区、选窗口或全屏录制，支持录制音频、点击高亮，可导出 GIF、MP4、WebM、APNG 多种格式，自带插件系统拓展上传能力，无水印，MIT 开源协议，帧率最高支持60 FPS。</p>",
+		"downlink": "<p>官网下载：<a href='https://getkap.co' target='_blank'>- Kap macOS录屏软件 -</a></p>",
+		"datatime": "2026-09-16",
+		"company": "Wulkano"
 	}
 ]

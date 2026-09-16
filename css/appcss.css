@@ -247,11 +247,11 @@ footer a:hover{
 	line-height: 1.5;
 	margin-top: 1rem;
 }
-.down-infopsw a{
+.down-infopsw a,.down-href a{
 	cursor: pointer;
 	color: #52C21B;
 }
-.down-infopsw a:hover{
+.down-infopsw a:hover,.down-href a:hover{
 	text-decoration: underline;
 }
 .site-pop-box{
