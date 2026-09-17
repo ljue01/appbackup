@@ -314,8 +314,19 @@
 	  "description": "仅支持 macOS 的开源免费录屏工具，基于 Electron 开发。",
 		"appicon": "kap.webp",
 		"downinfo": "<p>默认在 Mac 顶部菜单栏，可以选区、选窗口或全屏录制，支持录制音频、点击高亮，可导出 GIF、MP4、WebM、APNG 多种格式，自带插件系统拓展上传能力，无水印，MIT 开源协议，帧率最高支持60 FPS。</p>",
-		"downlink": "<p>官网下载：<a href='https://getkap.co' target='_blank'>- Kap macOS录屏软件 -</a></p>",
+		"downlink": "<p>官网下载：<a href='https://getkap.co' target='_blank'>Kap macOS录屏软件</a></p>",
 		"datatime": "2026-09-16",
 		"company": "Wulkano"
+	},
+	{
+		"keyid": 29,
+		"classid": 2,
+		"appname": "微软Office 2024 LTSC专业增强版",
+	  "description": "下载即可一键完成安装与授权，即刻部署使用。",
+		"appicon": "office2024ltsc.webp",
+		"downinfo": "<p>Office 2024 LTSC专业增强版原版ISO镜像，基于2026年最新批量许可版制作，内置自定义安装工具，集成自动激活授权，安全纯净无捆绑。</p>",
+		"downlink": "<p>百度云盘：<a href='https://pan.baidu.com/s/1JqDs9Ju_GzqpeKus4_aKwA?pwd=kaca' target='_blank'>微软Office 2024 LTSC专业增强版</a><br>提取码：kaca</p>",
+		"datatime": "2026-09-17",
+		"company": "Microsoft"
 	}
 ]
