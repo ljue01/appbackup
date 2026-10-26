@@ -295,5 +295,60 @@
 		"downlink": "<p>蓝奏云链接：https://justliu.lanzoue.com/iL8yN48k6pnc<br>密码:5na2</p>",
 		"datatime": "2026-09-15",
 		"company": "Firecore"
+	},
+	{
+		"keyid": 27,
+		"classid": 8,
+		"appname": "Snipaste截图贴图工具",
+	  "description": "Windows、macOS、Linux 平台的截图贴图工具，基础功能免费无广告",
+		"appicon": "snipaste.webp",
+		"downinfo": "<p>按下 F1 即可区域截图，自带箭头、文字、马赛克、高斯模糊等标注工具，还内置屏幕取色器，方便前端、设计师拾取色值。它最大特色是贴图功能，截图可以悬浮置顶在屏幕最上层，支持缩放、调透明度，写代码、核对资料时不用来回切换窗口。软件支持自定义快捷键，截图可复制到剪贴板或本地保存，是程序员、美工常用的效率小工具。</p>",
+		"downlink": "<p>官网下载：<a href='https://zh.snipaste.com' target='_blank'>- Snipaste截图贴图工具 -</a></p>",
+		"datatime": "2026-09-16",
+		"company": "Le Liu"
+	},
+	{
+		"keyid": 28,
+		"classid": 8,
+		"appname": "Kap macOS录屏软件",
+	  "description": "仅支持 macOS 的开源免费录屏工具，基于 Electron 开发。",
+		"appicon": "kap.webp",
+		"downinfo": "<p>默认在 Mac 顶部菜单栏，可以选区、选窗口或全屏录制，支持录制音频、点击高亮，可导出 GIF、MP4、WebM、APNG 多种格式，自带插件系统拓展上传能力，无水印，MIT 开源协议，帧率最高支持60 FPS。</p>",
+		"downlink": "<p>官网下载：<a href='https://getkap.co' target='_blank'>Kap macOS录屏软件</a></p>",
+		"datatime": "2026-09-16",
+		"company": "Wulkano"
+	},
+	{
+		"keyid": 29,
+		"classid": 2,
+		"appname": "微软Office 2024 LTSC专业增强版",
+	  "description": "下载即可一键完成安装与授权，即刻部署使用。",
+		"appicon": "office2024ltsc.webp",
+		"downinfo": "<p>Office 2024 LTSC专业增强版原版ISO镜像，基于2026年最新批量许可版制作，内置自定义安装工具，集成自动激活授权，安全纯净无捆绑。</p>",
+		"downlink": "<p>百度云盘：<a href='https://pan.baidu.com/s/1JqDs9Ju_GzqpeKus4_aKwA?pwd=kaca' target='_blank'>微软Office 2024 LTSC专业增强版</a><br>提取码：kaca</p>",
+		"datatime": "2026-09-17",
+		"company": "Microsoft"
+	},
+	{
+		"keyid": 30,
+		"classid": 2,
+		"appname": "LuLu V4.5.1",
+	  "description": "macOS平台免费开源的出站防火墙，专门监控应用向外发起的网络连接。",
+		"appicon": "lulu.webp",
+		"downinfo": "<p>LuLu 是 macOS 平台免费开源的出站防火墙，GPLv3协议，专门监控应用向外发起的网络连接，mac自带防火墙只管入站，LuLu正好补齐这块短板。陌生联网行为会弹窗询问允许或阻止，自动保存规则，也可以实时查看进程联网记录。</p>",
+		"downlink": "<p>蓝奏云：<a href='https://justliu.lanzoue.com/ivkvW4dgfr3e' target='_blank'>LuLu</a><br>密码：ceah</p>",
+		"datatime": "2026-10-26",
+		"company": "Patrick Wardle [Objective‑See]"
+	},
+	{
+		"keyid": 31,
+		"classid": 2,
+		"appname": "BluetoothCLTools V1.2.0.56",
+	  "description": "Windows平台免费的蓝牙命令行工具集，适合脚本自动化调试蓝牙设备Bluetooth。",
+		"appicon": "btcl.webp",
+		"downinfo": "<p>Windows平台免费的蓝牙命令行工具集，适合脚本自动化调试蓝牙设备Bluetooth。可以扫描蓝牙设备、配对、修改蓝牙适配器名称、建立蓝牙串口COM口、OBEX文件推送，可在批处理里调用，多用于工控、自动化场景，对新版Win10/11兼容性一般，更适合老版 Windows。</p><p>可以用来彻底删除计算机蓝牙设备btpair -u。</p>",
+		"downlink": "<p>蓝奏云：<a href='https://justliu.lanzoue.com/iCFQb4dfaq8h' target='_blank'>BluetoothCLTools</a><br>密码：fqoi</p>",
+		"datatime": "2026-10-26",
+		"company": "bluetoothinstaller.com"
 	}
 ]
