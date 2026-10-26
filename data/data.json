@@ -328,5 +328,27 @@
 		"downlink": "<p>百度云盘：<a href='https://pan.baidu.com/s/1JqDs9Ju_GzqpeKus4_aKwA?pwd=kaca' target='_blank'>微软Office 2024 LTSC专业增强版</a><br>提取码：kaca</p>",
 		"datatime": "2026-09-17",
 		"company": "Microsoft"
+	},
+	{
+		"keyid": 30,
+		"classid": 2,
+		"appname": "LuLu V4.5.1",
+	  "description": "macOS平台免费开源的出站防火墙，专门监控应用向外发起的网络连接。",
+		"appicon": "lulu.webp",
+		"downinfo": "<p>LuLu 是 macOS 平台免费开源的出站防火墙，GPLv3协议，专门监控应用向外发起的网络连接，mac自带防火墙只管入站，LuLu正好补齐这块短板。陌生联网行为会弹窗询问允许或阻止，自动保存规则，也可以实时查看进程联网记录。</p>",
+		"downlink": "<p>蓝奏云：<a href='https://justliu.lanzoue.com/ivkvW4dgfr3e' target='_blank'>LuLu</a><br>密码：ceah</p>",
+		"datatime": "2026-10-26",
+		"company": "Patrick Wardle [Objective‑See]"
+	},
+	{
+		"keyid": 31,
+		"classid": 2,
+		"appname": "BluetoothCLTools V1.2.0.56",
+	  "description": "Windows平台免费的蓝牙命令行工具集，适合脚本自动化调试蓝牙设备Bluetooth。",
+		"appicon": "btcl.webp",
+		"downinfo": "<p>Windows平台免费的蓝牙命令行工具集，适合脚本自动化调试蓝牙设备Bluetooth。可以扫描蓝牙设备、配对、修改蓝牙适配器名称、建立蓝牙串口COM口、OBEX文件推送，可在批处理里调用，多用于工控、自动化场景，对新版Win10/11兼容性一般，更适合老版 Windows。</p><p>可以用来彻底删除计算机蓝牙设备btpair -u。</p>",
+		"downlink": "<p>蓝奏云：<a href='https://justliu.lanzoue.com/iCFQb4dfaq8h' target='_blank'>BluetoothCLTools</a><br>密码：fqoi</p>",
+		"datatime": "2026-10-26",
+		"company": "bluetoothinstaller.com"
 	}
 ]
