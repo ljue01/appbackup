@@ -10,7 +10,7 @@
 		<title>艾圃社-用心分享，保持好奇心</title>
 		<link rel="stylesheet" href="css/common.css">
 		<link rel="stylesheet" href="css/appcss.css">
-		<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7227292961308738" crossorigin="anonymous"></script>
+		<!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7227292961308738" crossorigin="anonymous"></script> -->
 	</head>
 	<!-- Google tag (gtag.js) -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-1VHKLD6TWY"></script>
@@ -32,7 +32,7 @@
 					<ul class="logo-box">
 						<li class="logo-img"><img src="imgs/logo.png" alt="logo"></li>
 						<li class="f18 web-name">艾圃社</li>
-						<li class="f12 web-des">随心分享每一款资源</li>
+						<li class="f12 web-des">用心分享，保持好奇心</li>
 					</ul>
 					<ul class="menu-box">
 						<a class="nav-href flex" :class="{'menu-sel': selectedType === 8}" href="javascript:;" @click="selectedType = 8">
@@ -52,8 +52,12 @@
 							<span class="f14 menu-name">系统工具</span>
 						</a>
 						<a class="nav-href flex" :class="{'menu-sel': selectedType === 3}" href="javascript:;" @click="selectedType = 3">
-							<img src="imgs/tool.svg" alt="在线小工具">
-							<span class="f14 menu-name">在线小工具</span>
+							<img src="imgs/tool.svg" alt="在线工具">
+							<span class="f14 menu-name">在线工具</span>
+						</a>
+						<a class="nav-href flex" :class="{'menu-sel': selectedType === 5}" href="javascript:;" @click="selectedType = 5">
+							<img src="imgs/android.svg" alt="安卓">
+							<span class="f14 menu-name">安卓</span>
 						</a>
 						<a class="nav-href flex" :class="{'menu-sel': selectedType === 4}" href="javascript:;" @click="selectedType = 4">
 							<img src="imgs/other.svg" alt="其它">
@@ -79,11 +83,15 @@
 						</ul>
 						<ul class="none" :class="{'b-none': selectedType === 2}">
 							<li class="f24 m-t-10 bold">系统工具</li>
-							<li class="f12 gray m-t-16">Win/Mac系统好用的系统工具</li>
+							<li class="f12 gray m-t-16">Win/Mac系统好用的工具软件</li>
 						</ul>
 						<ul class="none" :class="{'b-none': selectedType === 3}">
-							<li class="f24 m-t-10 bold">在线小工具</li>
-							<li class="f12 gray m-t-16">浏览器直接打开就能帮助到你的小工具</li>
+							<li class="f24 m-t-10 bold">在线应用</li>
+							<li class="f12 gray m-t-16">浏览器直接打开就能帮助到你的应用工具</li>
+						</ul>
+						<ul class="none" :class="{'b-none': selectedType === 5}">
+							<li class="f24 m-t-10 bold">安卓</li>
+							<li class="f12 gray m-t-16">一些你可能不知道的安卓</li>
 						</ul>
 						<ul class="none" :class="{'b-none': selectedType === 4}">
 							<li class="f24 m-t-10 bold">其它</li>
@@ -113,8 +121,8 @@
 					      <a href="javascript:;" @click="popLike">喜欢</a>
 					      <a href="javascript:;" @click="popGzh">公众号</a>
 					      <a href="https://blog.csdn.net/justliu1989" target="_blank">CSDN</a>
-					      <a href="https://t.me/designer_work_share" target="_blank">TG</a>
-					      <a href="https://weibo.com/u/1849041452" target="_blank">个人微博</a>
+					      <a href="https://t.me/designer_work_share" target="_blank">TG频道</a>
+					      <!-- <a href="https://weibo.com/u/1849041452" target="_blank">个人微博</a> -->
 					    </div>
 					    <div class="site-beian">
 					      <span>appshare©️2024</span>
@@ -232,10 +240,8 @@
 		<script src="https://funcss.liujueyi.cn/vue3.2.22/vue.global.min.js"></script>
 		<script src="https://funcss.liujueyi.cn/axios1.3.6/axios.min.js"></script>
 		<script src="js/app.js"></script>
-		<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+		<!-- <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script> -->
 		<script>
-			
-			
 			// 百度统计
 			var _hmt = _hmt || [];
 			(function() {
