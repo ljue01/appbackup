@@ -155,7 +155,7 @@
 	},
 	{
 		"keyid": 14,
-		"classid": 3,
+		"classid": 8,
 		"appname": "FUNCSS - 有趣的css",
 	  "description": "关于 CSS 的案例展示和分享平台，获取灵感和思路。",
 		"appicon": "funcss.webp",
@@ -166,7 +166,7 @@
 	},
 	{
 		"keyid": 15,
-		"classid": 3,
+		"classid": 8,
 		"appname": "WHTOOL - 宽高比例计算工具",
 	  "description": "一款计算图片宽度和高度的辅助设计师的在线工具。",
 		"appicon": "whtool.webp",
@@ -254,50 +254,28 @@
 	},
 	{
 		"keyid": 23,
-		"classid": 8,
-		"appname": "😘 稳定品牌机场推荐",
-	  "description": "品牌机场，稳定靠谱，可当主机场使用",
-		"appicon": "sntp.webp",
-		"downinfo": "<p>自用三年，之前受影响的线路已恢复，直连地址已更新，目前体验顺畅。我是作为当主机场用的，而且有0.2低倍率追剧也不咋花流量，个人推荐按月订阅，理性消费。遇到配置问题可在群内交流：<a href='https://t.me/all_speak' target='_blank'>加入群聊</a></p><p>特点：稳定解锁 GPT 及主流流媒体；包含冷门节点与专线节点；免费赠送无广告高清影视库（需配合客户端使用）</p><p>低价套餐：18元/100G/月，端口速率300Mbps;<span style='font-weight:bold;'>【长期优惠码：10%off】</span></p><p>直连访问：<a href='https://dc.newsntp.com/auth/register?code=gqnnYqec' target='_blank'>- 无需代理即可访问，适合国内用户直接使用 -</a></p><p>代理访问：<a href='https://ncdn1.sntp.uk/auth/register?code=gqnnYqec' target='_blank'>- 适合已配置代理的用户，访问速度更快更稳定 -</a></p>",
-		"downlink": "",
-		"datatime": "2026-09-15",
-		"company": "SNTP"
-	},
-	{
-		"keyid": 24,
-		"classid": 8,
-		"appname": "💻 实用机场推荐",
-	  "description": "便宜稳定，支持多台设备同时在线",
-		"appicon": "lxy.webp",
-		"downinfo": "<p>自用 3 个月 +，稳定性确实不错，买的是2元/月（100G流量/支持8台设备）的套餐，像查资料、敲代码、处理日常业务完全够用。如果你也是类似的办公场景，选这个最低档就非常划算。</p><p>支持 OpenAI / Netflix / YouTube / TikTok 等主流服务；节点丰富：覆盖香港、日本、美国、英国等常用节点</p><p>网速表现实测延迟不大，打开网页和跑数据挺顺畅</p><p>几个不同档位，可以按需选择：</br>2 元 / 月：100G 流量 | 支持 8 台设备</br>4 元 / 月：500G 流量 | 支持 10 台设备</br>6 元 / 月：1000G 流量 | 支持 20 台设备</p><p>地址：<a href='https://xn--9kqz23b19z.com/#/register?code=b69ZcqCW' target='_blank'>- 需代理访问 -</a></p><p>有什么问题可进群交流：<a href='https://t.me/all_speak' target='_blank'>加入群聊</a></p>",
-		"downlink": "",
-		"datatime": "2026-09-15",
-		"company": "良心云"
-	},
-	{
-		"keyid": 25,
 		"classid": 2,
 		"appname": "键盘按键测试软件",
 	  "description": "一款检测键盘按键的小工具，仅支持Windows系统",
 		"appicon": "jpaj.webp",
-		"downinfo": "</p>",
-		"downlink": "<p>蓝奏云链接:https://justliu.lanzoue.com/iy2v614dfggb<br>密码:ghns</p>",
+		"downinfo": "",
+		"downlink": "<p>蓝奏云：<a href='https://justliu.lanzoue.com/iy2v614dfggb' target='_blank'>键盘按键测试软件</a><br>密码：ghns</p>",
 		"datatime": "2026-09-15",
 		"company": "未知"
 	},
 	{
-		"keyid": 26,
+		"keyid": 24,
 		"classid": 4,
 		"appname": "Infuse Pro V7.7.7 macos破解版",
-	  "description": "Infuse 是专为苹果生态打造的媒体播放器，支持 iPhone、iPad、Mac、Apple TV。",
+	  "description": "支持自定义emby媒体源。",
 		"appicon": "infuse.webp",
 		"downinfo": "",
-		"downlink": "<p>蓝奏云链接：https://justliu.lanzoue.com/iL8yN48k6pnc<br>密码:5na2</p>",
+		"downlink": "<p>蓝奏云：<a href='https://justliu.lanzoue.com/iL8yN48k6pnc' target='_blank'>Infuse Pro</a><br>密码：5na2</p>",
 		"datatime": "2026-09-15",
 		"company": "Firecore"
 	},
 	{
-		"keyid": 27,
+		"keyid": 25,
 		"classid": 8,
 		"appname": "Snipaste截图贴图工具",
 	  "description": "Windows、macOS、Linux 平台的截图贴图工具，基础功能免费无广告",
@@ -308,7 +286,7 @@
 		"company": "Le Liu"
 	},
 	{
-		"keyid": 28,
+		"keyid": 26,
 		"classid": 8,
 		"appname": "Kap macOS录屏软件",
 	  "description": "仅支持 macOS 的开源免费录屏工具，基于 Electron 开发。",
@@ -319,7 +297,7 @@
 		"company": "Wulkano"
 	},
 	{
-		"keyid": 29,
+		"keyid": 27,
 		"classid": 2,
 		"appname": "微软Office 2024 LTSC专业增强版",
 	  "description": "下载即可一键完成安装与授权，即刻部署使用。",
@@ -330,7 +308,7 @@
 		"company": "Microsoft"
 	},
 	{
-		"keyid": 30,
+		"keyid": 28,
 		"classid": 2,
 		"appname": "LuLu V4.5.1",
 	  "description": "macOS平台免费开源的出站防火墙，专门监控应用向外发起的网络连接。",
@@ -341,7 +319,7 @@
 		"company": "Patrick Wardle [Objective‑See]"
 	},
 	{
-		"keyid": 31,
+		"keyid": 29,
 		"classid": 2,
 		"appname": "BluetoothCLTools V1.2.0.56",
 	  "description": "Windows平台免费的蓝牙命令行工具集，适合脚本自动化调试蓝牙设备Bluetooth。",
@@ -350,5 +328,82 @@
 		"downlink": "<p>蓝奏云：<a href='https://justliu.lanzoue.com/iCFQb4dfaq8h' target='_blank'>BluetoothCLTools</a><br>密码：fqoi</p>",
 		"datatime": "2026-10-26",
 		"company": "bluetoothinstaller.com"
+	},
+	{
+		"keyid": 30,
+		"classid": 3,
+		"appname": "看看鸭",
+	  "description": "高清在线追剧的综合视频网站。",
+		"appicon": "kky.webp",
+		"downinfo": "<p>看看鸭-高清在线追剧的综合视频网站，涵盖电影、电视剧、动漫、综艺等多种影视资源，更新速度较快，支持多条高清播放线路和投屏功能。网站广告目前页比较较少，整体观影体验比较清爽。</p><p>网站上的任何广告都不要相信！！！不要相信任何广告！不要相信任何广告！不要相信任何广告！</p>",
+		"downlink": "<p>前往网站：<a href='https://www.kankanya.me/' target='_blank'>看看鸭</a></p><p>失联地址：<a href='https://www.kankanya.vip/' target='_blank'>最新地址发布</a></p>",
+		"datatime": "2026-10-29",
+		"company": "看看鸭"
+	},
+	{
+		"keyid": 31,
+		"classid": 3,
+		"appname": "厂长资源",
+	  "description": "高清在线追剧的综合视频网站。",
+		"appicon": "czzy.webp",
+		"downinfo": "<p>厂长资源画质高清，播放不卡顿，存储依托自建服务器和大厂节点保障速度。部分影片提供迅雷、阿里云、夸克等下载渠道。</p><p>网站上的任何广告都不要相信！！！不要相信任何广告！不要相信任何广告！不要相信任何广告！</p>",
+		"downlink": "<p>前往网站：<a href='https://www.cz4k.com/' target='_blank'>厂长资源</a></p><p>失联地址：<a href='https://www.czzy.site/' target='_blank'>最新地址发布</a></p>",
+		"datatime": "2026-10-29",
+		"company": "厂长资源"
+	},
+	{
+		"keyid": 32,
+		"classid": 3,
+		"appname": "No视频",
+	  "description": "主要提供海外影视剧资源视频网站。",
+		"appicon": "nosp.webp",
+		"downinfo": "<p>No视频主要提供港台、欧美、日、韩、泰等海外影视资源，播放速度中等。</p><p>网站上的任何广告都不要相信！！！不要相信任何广告！不要相信任何广告！不要相信任何广告！</p>",
+		"downlink": "<p>前往网站：<a href='https://www.novipnoad.uk/' target='_blank'>No视频</a></p><p>失联地址：<a href='https://findno.tv/' target='_blank'>最新地址导航</a></p>",
+		"datatime": "2026-10-29",
+		"company": "novipnoad"
+	},
+	{
+		"keyid": 33,
+		"classid": 3,
+		"appname": "低端影视",
+	  "description": "1080P高清在线追剧的综合视频网站。",
+		"appicon": "ddys.webp",
+		"downinfo": "<p>低端影视致力于为影视爱好者提供一个干净、整洁、易用的资源聚合平台，深知在互联网上寻找优质影视资源的困难，因此通过AI技术对全网资源进行智能整理、分类和重写，为您呈现最清晰的内容。</p><p>网站上的任何广告都不要相信！！！不要相信任何广告！不要相信任何广告！不要相信任何广告！</p>",
+		"downlink": "<p>前往网站：<a href='https://ddys.io/' target='_blank'>低端影视</a></p>",
+		"datatime": "2026-10-29",
+		"company": "低端影视"
+	},
+	{
+		"keyid": 34,
+		"classid": 5,
+		"appname": "橘汁视频 V3.0.6.5",
+	  "description": "安卓端高清追剧App，支持文字弹幕。",
+		"appicon": "jzsp.webp",
+		"downinfo": "<p>橘汁视频应用覆盖电影、电视剧、动漫、综艺和短剧等内容，并支持通过片名等关键词查找影片，当某条线路加载缓慢、播放失败或片源失效时，用户可以尝试切换到其他线路。</p><p>支持文字弹幕。</p><p>网站上的任何广告都不要相信！！！不要相信任何广告！不要相信任何广告！不要相信任何广告！</p>",
+		"downlink": "<p>蓝奏云：<a href='https://justliu.lanzoue.com/iYztB4dqo1yd' target='_blank'>橘汁视频</a><br>密码：ge2y</p>",
+		"datatime": "2026-10-29",
+		"company": "橘汁视频"
+	},
+	{
+		"keyid": 35,
+		"classid": 5,
+		"appname": "低端影视 V1.0.24",
+	  "description": "安卓端高清追剧App。",
+		"appicon": "ddys.webp",
+		"downinfo": "<p>低端影视致力于为影视爱好者提供一个干净、整洁、易用的资源聚合平台，深知在互联网上寻找优质影视资源的困难，因此通过AI技术对全网资源进行智能整理、分类和重写，为您呈现最清晰的内容。</p><p>安卓端安装完成后，第一次打开加载比较慢，可以尝试切换手机网络和wifi加速。</p><p>网站上的任何广告都不要相信！！！不要相信任何广告！不要相信任何广告！不要相信任何广告！</p>",
+		"downlink": "<p>蓝奏云：<a href='https://justliu.lanzoue.com/iJ6ve4dv9pib' target='_blank'>低端影视</a><br>密码：8mdh</p>",
+		"datatime": "2026-10-29",
+		"company": "低端影视"
+	},
+	{
+		"keyid": 36,
+		"classid": 8,
+		"appname": "LocalSend",
+	  "description": "一款免费、开源、跨平台的局域网文件互传工具",
+		"appicon": "localsend.webp",
+		"downinfo": "<p>LocalSend 是一款免费、开源、跨平台的局域网文件互传工具，无需互联网，无需外部服务器。即开即用，支持 Windows、macOS、Linux，以及 iOS、Android。</p><p>LocalSend通过自己的LocalSend Protocol v1协议来传输文件，同样开源。设备之间使用REST API进行通信，并且通过在设备上即时生成的TLS证书，基于HTTPS安全传输文件。</p>",
+		"downlink": "<p>官网访问：<a href='https://localsend.org/zh-CN' target='_blank'>- LocalSend Web -</a></p><p>Github：<a href='https://github.com/localsend/localsend' target='_blank'>- LocalSend Github -</a></p>",
+		"datatime": "2026-10-29",
+		"company": "Tien Do Nam"
 	}
 ]
