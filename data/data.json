@@ -405,5 +405,38 @@
 		"downlink": "<p>官网访问：<a href='https://localsend.org/zh-CN' target='_blank'>- LocalSend Web -</a></p><p>Github：<a href='https://github.com/localsend/localsend' target='_blank'>- LocalSend Github -</a></p>",
 		"datatime": "2026-10-29",
 		"company": "Tien Do Nam"
+	},
+	{
+		"keyid": 37,
+		"classid": 5,
+		"appname": "橘汁视频 V3.0.7.0",
+	  "description": "安卓端高清追剧App，支持文字弹幕。",
+		"appicon": "jzsp.webp",
+		"downinfo": "<p>橘汁视频应用覆盖电影、电视剧、动漫、综艺和短剧等内容，并支持通过片名等关键词查找影片，当某条线路加载缓慢、播放失败或片源失效时，用户可以尝试切换到其他线路。</p><p>支持文字弹幕。</p><p>网站上的任何广告都不要相信！！！不要相信任何广告！不要相信任何广告！不要相信任何广告！</p>",
+		"downlink": "<p>蓝奏云：<a href='https://justliu.lanzoue.com/iMnz94e3i3ib' target='_blank'>橘汁视频</a><br>密码：996c</p>",
+		"datatime": "2026-11-14",
+		"company": "橘汁视频"
+	},
+	{
+		"keyid": 38,
+		"classid": 5,
+		"appname": "橘汁TV版 v3.0.2.6",
+	  "description": "安卓电视端高清追剧App。",
+		"appicon": "jzsp.webp",
+		"downinfo": "<p>橘汁TV视频支持安装到安卓智能电视上，可下载到U盘后查到智能电视上进行安装。</p><p>网站上的任何广告都不要相信！！！不要相信任何广告！不要相信任何广告！不要相信任何广告！</p>",
+		"downlink": "<p>蓝奏云：<a href='https://justliu.lanzoue.com/i3yNg4fxwbqh' target='_blank'>橘汁TV版</a><br>密码：av1b</p>",
+		"datatime": "2026-11-14",
+		"company": "橘汁视频"
+	},
+	{
+		"keyid": 39,
+		"classid": 2,
+		"appname": "网易UU远程",
+	  "description": "网易出品的免费多平台远程控制工具，依托UU加速器的网络优化能力，低延迟远控。",
+		"appicon": "wyuu.webp",
+		"downinfo": "<p>它支持 4K 144 帧、HDR、4:4:4 真彩、远程开机、不限大小文件传输、多屏控制，还带端口映射、远程终端、隐私屏幕等进阶功能，用账号或者 ID + 验证码即可连接，无需公网 IP发烧游戏</p><p>支持Windows、macOS、安卓、iOS、TV端，可用来远程办公、游戏串流、帮别人修电脑远程协助</p>",
+		"downlink": "<p>官网下载：<a href='https://uuyc.163.com/' target='_blank'>网易UU远程</a></p>",
+		"datatime": "2026-11-14",
+		"company": "网易"
 	}
 ]
