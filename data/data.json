@@ -405,5 +405,82 @@
 		"downlink": "<p>官网访问：<a href='https://localsend.org/zh-CN' target='_blank'>- LocalSend Web -</a></p><p>Github：<a href='https://github.com/localsend/localsend' target='_blank'>- LocalSend Github -</a></p>",
 		"datatime": "2026-10-29",
 		"company": "Tien Do Nam"
-	}
+	},
+	{
+		"keyid": 37,
+		"classid": 5,
+		"appname": "橘汁视频 V3.0.7.0",
+	  "description": "安卓端高清追剧App，支持文字弹幕。",
+		"appicon": "jzsp.webp",
+		"downinfo": "<p>橘汁视频应用覆盖电影、电视剧、动漫、综艺和短剧等内容，并支持通过片名等关键词查找影片，当某条线路加载缓慢、播放失败或片源失效时，用户可以尝试切换到其他线路。</p><p>支持文字弹幕。</p><p>网站上的任何广告都不要相信！！！不要相信任何广告！不要相信任何广告！不要相信任何广告！</p>",
+		"downlink": "<p>蓝奏云：<a href='https://justliu.lanzoue.com/iMnz94e3i3ib' target='_blank'>橘汁视频</a><br>密码：996c</p>",
+		"datatime": "2026-11-14",
+		"company": "橘汁视频"
+	},
+	{
+		"keyid": 38,
+		"classid": 5,
+		"appname": "橘汁TV版 v3.0.2.6",
+	  "description": "安卓电视端高清追剧App。",
+		"appicon": "jzsp.webp",
+		"downinfo": "<p>橘汁TV视频支持安装到安卓智能电视上，可下载到U盘后查到智能电视上进行安装。</p><p>网站上的任何广告都不要相信！！！不要相信任何广告！不要相信任何广告！不要相信任何广告！</p>",
+		"downlink": "<p>蓝奏云：<a href='https://justliu.lanzoue.com/i3yNg4fxwbqh' target='_blank'>橘汁TV版</a><br>密码：av1b</p>",
+		"datatime": "2026-11-14",
+		"company": "橘汁视频"
+	},
+	{
+		"keyid": 39,
+		"classid": 2,
+		"appname": "网易UU远程",
+	  "description": "网易出品的免费多平台远程控制工具，依托UU加速器的网络优化能力，低延迟远控。",
+		"appicon": "wyuu.webp",
+		"downinfo": "<p>它支持 4K 144 帧、HDR、4:4:4 真彩、远程开机、不限大小文件传输、多屏控制，还带端口映射、远程终端、隐私屏幕等进阶功能，用账号或者 ID + 验证码即可连接，无需公网 IP发烧游戏</p><p>支持Windows、macOS、安卓、iOS、TV端，可用来远程办公、游戏串流、帮别人修电脑远程协助</p>",
+		"downlink": "<p>官网下载：<a href='https://uuyc.163.com/' target='_blank'>网易UU远程</a></p>",
+		"datatime": "2026-11-14",
+		"company": "网易"
+	},
+	{
+		"keyid": 40,
+		"classid": 3,
+		"appname": "搜TV啦",
+	  "description": "免费、专业影视搜索引擎，什么视频都可以搜，想看的都有！",
+		"appicon": "sotvla.webp",
+		"downinfo": "<p>免费的影视搜索引擎，非常强大，什么视频都可以搜，需要注册账号，游客只可以看到部分搜索结果。</p><p>网站上的任何广告都不要相信！！！不要相信任何广告！不要相信任何广告！不要相信任何广告！</p>",
+		"downlink": "<p>前往网站：<a href='www.sotvla.com' target='_blank'>搜TV啦</a></p>",
+		"datatime": "2026-11-16",
+		"company": "sotvla"
+	},
+	{
+		"keyid": 41,
+		"classid": 0,
+		"appname": "字由（HelloFont）",
+	  "description": "设计师字体管理工具。",
+		"appicon": "ziyou.webp",
+		"downinfo": "<p>支持 Windows、macOS字由。它收录数千款字体，区分免费商用、会员商用字体，不用本地安装字体文件，可在 PS、AI、Figma、PPT、WPS 等软件里一键切换字体，附带 AI 识字、AI 补字、字体收藏、云字库等功能，方便设计师规避字体版权风险</p>",
+		"downlink": "<p>下载地址：<a href='https://www.hellofont.cn/download' target='_blank'>字由</a></p>",
+		"datatime": "2026-11-16",
+		"company": "上海驿创"
+	},
+	{
+			"keyid": 42,
+			"classid": 8,
+			"appname": "😘 稳定品牌机场推荐",
+		  "description": "品牌机场，稳定靠谱，可当主机场使用",
+			"appicon": "sntp.webp",
+			"downinfo": "<p>自用三年，之前受影响的线路已恢复，直连地址已更新，目前体验顺畅。我是作为当主机场用的，而且有0.2低倍率追剧也不咋花流量，个人推荐按月订阅，理性消费。遇到配置问题可在群内交流：<a href='https://t.me/all_speak' target='_blank'>加入群聊</a></p><p>特点：稳定解锁 GPT 及主流流媒体；包含冷门节点与专线节点；免费赠送无广告高清影视库（需配合客户端使用）</p><p>低价套餐：18元/100G/月，端口速率300Mbps;<span style='font-weight:bold;'>【长期优惠码：10%off】</span></p><p>直连访问：<a href='https://cw.gosntp.com/auth/register?code=gqnnYqec' target='_blank'>- 无需代理即可访问，适合国内用户直接使用 -</a></p><p>代理访问：<a href='https://ncdn1.sntp.uk/auth/register?code=gqnnYqec' target='_blank'>- 适合已配置代理的用户，访问速度更快更稳定 -</a></p>",
+			"downlink": "",
+			"datatime": "2026-11-16",
+			"company": "SNTP"
+		},
+		{
+			"keyid": 43,
+			"classid": 8,
+			"appname": "💻 实用机场推荐",
+		  "description": "便宜稳定，支持多台设备同时在线",
+			"appicon": "lxy.webp",
+			"downinfo": "<p>自用 3 个月 +，稳定性确实不错，买的是2元/月（100G流量/支持8台设备）的套餐，像查资料、敲代码、处理日常业务完全够用。如果你也是类似的办公场景，选这个最低档就非常划算。</p><p>支持 OpenAI / Netflix / YouTube / TikTok 等主流服务；节点丰富：覆盖香港、日本、美国、英国等常用节点</p><p>网速表现实测延迟不大，打开网页和跑数据挺顺畅</p><p>几个不同档位，可以按需选择：</br>2 元 / 月：100G 流量 | 支持 8 台设备</br>4 元 / 月：500G 流量 | 支持 10 台设备</br>6 元 / 月：1000G 流量 | 支持 20 台设备</p><p>地址：<a href='https://xn--9kqz23b19z.com/#/register?code=b69ZcqCW' target='_blank'>- 需代理访问 -</a></p><p>有什么问题可进群交流：<a href='https://t.me/all_speak' target='_blank'>加入群聊</a></p>",
+			"downlink": "",
+			"datatime": "2026-11-16",
+			"company": "良心云"
+		}
 ]
